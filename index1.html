@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포트폴리오</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style1.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+    <!-- font : Nato sans korea -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- jq cdn -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<!-- javascript -->
+<script src="js/main.js" defer></script>
+
+</head>
+<body>  
+    <div class="wrap">
+        <header>
+            <div class="container">
+                <h1>HYUNUK</h1>
+                <ul>
+                    <li><a href="#"><span></span>About</a></li>
+                    <li><a href="#"><span></span>Portfolio</a></li>
+                    <li><a href="#"><span></span>Introduce</a></li>
+                    <li><a href="#"><span></span>Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="bg" id="bg">
+                <marquee behavior="scroll" direction="left" scrollamount="20">
+                    <p>
+                        <span>WE MAKE</span>
+                        THINGS
+                    </p>
+                    <p>
+                        <span>WE MAKE</span>
+                        THINGS
+                    </p>
+                </marquee>
+                <marquee behavior="scroll" direction="right" scrollamount="15" scrolldelay="100">
+                    <p><span>FROM</span> CREATIVITY</p>
+                    <p><span>FROM</span> CREATIVITY</p>
+                </marquee>
+            </div>
+            <div class="container">
+                <section class="section01">
+                    <div class="topmain">
+                        <div class="bgmain">
+                            <video loop  muted><source src="./vidieo/y2mate.com - ITZY CAKE MV ITZY_720p.mp4"></video>
+                        </div>
+                        <!-- <div class="imgmain">
+                            <img src="#" alt="Portfolio">
+                        </div> -->
+                    </div>
+                </section>
+                <!-- --------------------------------------------- -->
+                <section class="section02">
+                    <ul class="portfolio">
+                        <li class="video01" id="video01">
+                            <a href="#">
+                                <video>
+                                    <source src="vidieo/y2mate.com - ITZY CAKE MV ITZY_720p.mp4" >
+                                </video>
+                                <div class="numbering">
+                                    <p><span>01</span>/03</p>
+                                </div>
+                                <h2>제목</h2>
+                            </a>
+                        </li>
+                        <li class="video02">
+                            <a href="#">
+                                <!-- <video>
+                                    <source src="/vidieo/y2mate.com - ITZY CAKE MV ITZY_720p.mp4" >
+                                </video> -->
+                                <div class="numbering">
+                                    <p><span>02</span>/03</p>
+                                </div>
+                                <h2>제목</h2>
+                            </a>
+                        </li>
+                        <li class="video03">
+                            <a href="#">
+                                <video>
+                                    <source src="vidieo/y2mate.com - ITZY CAKE MV ITZY_720p.mp4" >
+                                </video>
+                                <div class="numbering">
+                                    <span>03</span>
+                                    <p>/03</p>
+                                </div>
+                                <h2>제목</h2>
+                            </a>
+                        </li>
+                </section>
+            </div>
+        </main>
+        <footer>
+                 <section id="contact" class="contact">
+            <div class="container">
+                <div class="title">
+                    <h4>Contact</h4>
+                    <h2>Contact Information</h2>
+                </div>
+                <div class="contact-me">
+                    <div class="left">
+                        <div class="card"> 
+                            <div class="icon">      
+                                <i class="fa-solid fa-phone-volume"></i>   
+                            </div>
+                            <div class="info-text">
+                                <h3>phone</h3>
+                                <p>010-000-0000</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope-open-text"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>email</h3>
+                                <p>us14450@naver.com</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa-regular fa-copyright"></i>
+                            </div>
+                            <div class="info-text">
+                                <h3>Copyright</h3>
+                                <p>0~~~~~0</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="name">name</label>
+                                <input type="text" id="name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">email</label>
+                                <input type="email" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="msg">message</label>
+                                <textarea  id="msg"></textarea> 
+                            </div>
+                            <button>SEND</button>
+                        </form>
+                    </div>     
+                </div>
+            </div>
+        </section>
+            <!-- <section>
+                <div class="container">
+                    <img src="#" alt="">
+                    <p class="animate__animated animate__flash">Will</p>
+                    <button>Conatact</button>
+                </div>
+            </section> -->
+        </footer>
+    </div>
+</body>
+</html>
